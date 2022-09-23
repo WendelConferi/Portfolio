@@ -69,3 +69,14 @@ function skillsCounter() {
     p => (p.style.animation = 'progress 2s ease-in-out forwards')
   )
 }
+
+/* ----------------- Portfolio Filter Animation ------------- */
+
+let mixer = mixitup('.portfolio-gallery', {
+  selectors: {
+    target: '.prt-card'
+  },
+  animation: {
+    duration: 500
+  }
+})
